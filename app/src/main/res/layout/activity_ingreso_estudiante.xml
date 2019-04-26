@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/txtBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:text="Estudiante"
+        android:textColor="#0098ba"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnHorarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onclick"
+            android:text="Ver horarios"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnReglamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onclick"
+            android:text="Ver reglamentos"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnReservas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onclick"
+            android:text="Hacer reservas"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/btnVerReservas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="verReservas"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:text="Ver mas reservas " />
+        <Button
+            android:id="@+id/btnInfopersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="verReservas"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:text="Gestionar info.Personal " />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

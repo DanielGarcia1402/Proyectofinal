@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Registro estudiantes" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Ingresa nombres"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Ingresa apellidos"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/txtCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Ingresa cédula"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/txtCodigoestu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:hint="Ingresa código estudiante"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinnerFacultad"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerPrograma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtFechanacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:hint="Ingrese Fecha de nacimiento"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:hint="Ingrese Correo"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="" />
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Ingresa password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/txtVerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:hint="Confirmar password"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="textPassword"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/darker_gray"
+            android:text="Registrarse"
+            android:onClick="Registrar"
+            android:textColor="@android:color/background_light"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
